@@ -2,8 +2,8 @@ import NlwSpacetimeLogo from './components/nlw-spacetime-logo'
 
 export default function Home(): JSX.Element {
   return (
-    <main className="grid min-h-screen w-full bg-gray-700">
-      <div className="relative flex items-center justify-center overflow-hidden">
+    <main className="relative grid min-h-screen items-end overflow-hidden bg-gray-700 px-8 py-10">
+      <div className="flex items-center justify-center ">
         <div className="flex flex-col items-center space-y-6">
           <NlwSpacetimeLogo />
           <div className="space-y-1 text-center">
@@ -22,8 +22,11 @@ export default function Home(): JSX.Element {
             COMEÇAR A CADASTRAR
           </a>
         </div>
-        <div className="absolute right-0 h-[288px] w-[526px] translate-x-1/2 rounded-full bg-purple-600/50 blur-194" />
       </div>
+      <div className="text-center">
+        <p className="leading-relaxed">Feito com 💜 no NLW da Rocketseat</p>
+      </div>
+      <div className="absolute right-0 top-1/2 h-[288px] w-[526px] -translate-y-1/2 translate-x-1/2 rounded-full bg-purple-600/50 blur-194" />
     </main>
   )
 }
