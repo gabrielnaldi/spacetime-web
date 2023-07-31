@@ -77,6 +77,9 @@ module.exports = {
       fontFamily: {
         roboto: 'var(--font-roboto)',
         baiJamJuree: 'var(--font-bai-jamjuree)'
+      },
+      blur: {
+        194: '194px'
       }
     },
   },
