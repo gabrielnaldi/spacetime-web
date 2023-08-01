@@ -26,7 +26,7 @@ export default function Home(): JSX.Element {
       <div className="text-center">
         <p className="leading-relaxed">Feito com 💜 no NLW da Rocketseat</p>
       </div>
-      <div className="absolute right-0 top-1/2 h-[288px] w-[526px] -translate-y-1/2 translate-x-1/2 rounded-full bg-purple-600/50 blur-194" />
+      <div className="absolute right-0 top-1/2 h-[288px] w-[526px] -translate-y-1/2 translate-x-1/2 rounded-full bg-purple-700/75 blur-194" />
     </main>
   )
 }
