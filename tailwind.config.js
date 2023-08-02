@@ -72,7 +72,7 @@ module.exports = {
         700: '#039645',
         800: '#027435',
         900: '#025929',
-        }
+        },
       },
       fontFamily: {
         roboto: 'var(--font-roboto)',
@@ -80,6 +80,13 @@ module.exports = {
       },
       blur: {
         194: '194px'
+      },
+      backgroundImage: {
+        // stripes: 'linear-gradient(to bottom, , rgba(255, 255, 255, 0.1) 12.5%, transparent 12.5%);'
+        stripes: 'linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 12.5%, transparent 12.5%, transparent);'
+      },
+      backgroundSize: {
+        stripes: '100% 8px'
       }
     },
   },
